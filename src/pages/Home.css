@@ -1,0 +1,94 @@
+/* :where([class^="ri-"])::before { 
+    content: "\f3c2"; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #e84393;
+    border-radius: 4px;
+}
+
+.custom-checkbox input:checked ~ .checkmark:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #e84393;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.custom-switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+}
+
+.custom-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 24px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #e84393;
+}
+
+input:checked + .slider:before {
+    transform: translateX(24px);
+}  */
